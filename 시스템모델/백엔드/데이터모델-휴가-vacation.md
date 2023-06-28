@@ -10,3 +10,4 @@ totalDays: 부여 일수
 expirationDt: 만료일시
 memo: 메모
 createAt: 생성일시
+
