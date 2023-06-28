@@ -21,7 +21,7 @@
 - endDate : YYYY-MM-DD
 - requestDays
 - memo
-- createdDt : YYYY-MM-DD hh:mm:ss
+- createdAt : YYYY-MM-DD hh:mm:ss
 - statusCd
 	- 100 : approve_requested (승인요청)
 	- 200 : approved (승인됨)
