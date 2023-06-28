@@ -1,33 +1,17 @@
 - id
 - userId
 - userName
-- vacationTypeCd
-	- 100 : 연차
-	- 200 : 여름휴가
-	- 300 : 대체휴무
-	- 400 : 출산휴가
-	- 500 : 특별휴가
-	- 600 : 커스텀
-		- 추가한 휴가유형은 600번대
-- vacationTypeCdName
-- usingCd
-	- 100 : 종일 (09 - 18)
-	- 200 : 오전반차 (09 - 12)
-	- 300 : 오후반차 (13 - 18)
-	- 400 : 시간차
-- usingStartTime : hh:mm:ss (저장시 usingCd에)
-- usingEndTime : hh:mm:ss
-- startDate : YYYY-MM-DD 
-- endDate : YYYY-MM-DD
-- requestDays
-- memo
-- createdAt : YYYY-MM-DD hh:mm:ss
-- statusCd
-	- 100 : approve_requested (승인요청)
-	- 200 : approved (승인됨)
-	- 300 : denied (거절됨)
-	- 400 : cancel_requested (취소요청)
-	- 500 : canceled (취소됨)
+vacationTypeCd : [[공통코드#vacationType - 휴가유형 코드|휴가유형코드]]
+vacationTypeCdName : 휴가유형 이름
+usingCd : [[공통코드#usingCd - 사용시간유형 코드|사용시간유형 코드]]
+usingStartTime : hh:mm:ss
+usingEndTime : hh:mm:ss
+startDate : YYYY-MM-DD 
+endDate : YYYY-MM-DD
+requestDays
+memo
+createdAt : YYYY-MM-DD hh:mm:ss
+statusCd : [[]]
 - approved
 	- approvedDt
 	- approvedBy
