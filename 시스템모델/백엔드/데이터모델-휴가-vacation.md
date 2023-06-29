@@ -7,6 +7,7 @@ vacationTypeCd: [[공통코드#vacationType - 휴가유형 코드|휴가유형�
 vacationTypeCdName: 휴가유형 이름
 leftDays: 미사용 일수
 totalDays: 부여 일수
+startDt : 시작일시
 expirationDt: 만료일시
 memo: 메모
 createAt: 생성일시
